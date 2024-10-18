@@ -9,10 +9,8 @@ so to run the code you will need to install all dependencies from there.
 pip install -r reqirements.txt
 ```
 
-
-# Created by Ruslan Konoz
-
-### dotenv
+### In order to use the TEXT variable from environment use library below
+## dotenv
 Dotenv is a Python library for dealing with environment variables.
 ## Usage
 
@@ -26,5 +24,8 @@ load_dotenv()
 # gets the desired variable
 os.getenv("<variable_name>")
 ```
+
+# Created by Ruslan Konoz
+
 
 
