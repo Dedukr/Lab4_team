@@ -9,7 +9,7 @@ so to run the code you will need to install all dependencies from there.
 pip install -r reqirements.txt
 ```
 
-### In order to use TEXT variable, just import that from config.py
+### In order to use TEXT variable, import that from config.py
 ```python
 from config import TEXT
 ```
