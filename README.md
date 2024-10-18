@@ -9,23 +9,13 @@ so to run the code you will need to install all dependencies from there.
 pip install -r reqirements.txt
 ```
 
-### In order to use the TEXT variable from environment use library below
-## dotenv
-Dotenv is a Python library for dealing with environment variables.
-## Usage
-
+### In order to use TEXT variable, just import that from config.py
 ```python
-import os
-from dotenv import load_dotenv, dotenv_values
-
-# load all the env variables
-load_dotenv()
-
-# gets the desired variable
-os.getenv("<variable_name>")
+from config import TEXT
 ```
 
 # Created by Ruslan Konoz
+
 
 
 
